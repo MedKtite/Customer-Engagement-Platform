@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    max-width: 1920px;
+    margin: 0 auto; /* Center the root element */
+    padding: 0;
+    background-color: #181818; /* Example background color */
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+  }
