@@ -22,7 +22,7 @@ const Login = () => {
     const togglePasswordVisibility = (): void => {
         setShowPassword(prev => !prev);
     };
-// Email Inputs 
+// Email Inputs  
 
     return (
         <div className="flex h-screen bg-primary-Dark-gray text-primary-off-white items-center justify-center gap-56">     

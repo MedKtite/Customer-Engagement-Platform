@@ -1,9 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from '../Auth/Login';
-import Signup from '../Auth/Signup';
+import SignUp from '../Auth/SignUp';
 import ForgotPassword from '../Auth/ForgotPassword';
+import NewPassword from '../Auth/NewPassword';
 import Overview from '../Dashboard/Overview';
 import Contacts from '../Dashboard/Contacts';
+import ResetPasswordSuccess from '../Auth/ResetPasswordSuccess';
 
 
 
@@ -13,8 +15,10 @@ function AppRoutes() {
       <Routes>
         {/* Auth Routes */}
         <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/new-password" element={<NewPassword />} />
+        <Route path="/reset-password-success" element={<ResetPasswordSuccess />} />
 
         {/* Dashboard Layout */}
         <Route element={<Overview />}>
