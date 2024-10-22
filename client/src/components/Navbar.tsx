@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className=' flex justify-between py-3 px-8 bg-primary-dark-slate border-b border-primary-lighter-gray'>
         <div id='logo' className='flex justify-center items-center'>
-            <h1 className='font-sans text-3xl font-medium text-white'><span className='font-bold text-4xl text-secondary-purple'>L</span>ink<span className='font-bold text-4xl text-secondary-purple'>W</span>ave</h1>
+            <h1 className='font-sans text-3xl font-medium text-white'><span className='font-semibold text-3xl text-primary-off-white'>L</span>ink<span className='font-semibold text-3xl text-primary-off-white'>W</span>ave</h1>
         </div>
 
         <div>
